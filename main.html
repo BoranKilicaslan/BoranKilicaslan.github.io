@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Multiverse</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts/func.js"></script>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+<style>
+     p {
+    margin-top: 150px;
+    padding-left: 775px;
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: 'Fasthand', cursive;
+        -webkit-filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+        filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    }
+    .form{
+        margin-top: 0px;
+    padding-left:650px;
+    padding-top: 0px;
+    font-size: 10px;
+    font-family:'Courier New', Courier, monospace;
+        -webkit-filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+        filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    }
+
+    table{ border-collapse: collapse; }
+    td, th{ border: 1px solid rgb(255, 255, 255); }
+    #num{ background-color: rgb(255, 255, 255); color:white}
+    tr:last-of-type{ text-align: center;}
+    span{color: green; font-weight: bold;}
+</style>
+</head>
+<body>
+    <div class="bg">
+        <div class="topLeft">
+            <a href="p2.html">Murder Machine</a>
+            <a href="p3.html">Drowned</a>
+            <a href="p4.html">Dawnbreaker</a>
+            <a href="p5.html">Batman Who Laughs</a>
+            <a href="p6.html">Devastator</a>
+            <a href="p7.html">Merciless</a>
+            <a href="p8.html">Red Death</a>
+        </div>
+        <div class="box">
+            <p>DARK KNIGHTS</p>
+        </div>
+        <div class="form">
+            <form action="">
+                <h2>Form</h2>
+                <table>
+                  <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="uname" id="uname"></td>
+                  </tr>
+                  <tr>
+                    <td>Multiverse</td>
+                    <td>
+                      <select name="destination" id="destination">
+                          <option value="dev">-1</option>
+                          <option value="bwl">-2</option>
+                          <option value="dro">-11</option>
+                          <option value="mer">-12</option>
+                          <option value="lan">-32</option>
+                          <option value="mur">-44</option>
+                          <option value="red">-52</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Barbatos</td>
+                    <td><input type="checkbox" name="business" id="business"></td>
+                  </tr>
+                  <tr>
+                    <td>Dark Metal Exposure</td>
+                    <td><input type="text" name="luggage" id="luggage"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" id="tdWithButton">
+                      <input type="button" value="Calculate" id="btnCalculate" name="btCalculate" onclick="calculate()">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td colspan="2"><textarea name="result" id="result" cols="30" rows="10"></textarea></td>        
+                  </tr>
+                </table>
+              </form>
+              <div id="res">
+            
+              </div>
+              
+        </div>
+        <div class="bgsocial">
+            <a  href=""><img src="/img/instagram.png" ></a>
+            <a  href=""><img src="/img/github.png" ></a>
+            <a  href=""><img src="/img/linkedin.png" ></a>
+            <a  href=""><img src="/img/gmail.png" ></a>
+        </div>
+    </div>
+</body>
+</html>
